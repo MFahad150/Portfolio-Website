@@ -4,6 +4,10 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
+
+  const handleScroll = (e:React.MouseEvent<HTMLAnchorElement, MouseEvent>)=>{
+
+  }
   return (
     <>
       <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
@@ -21,6 +25,7 @@ const Navbar = () => {
             <ul className="flex text-[15px] gap-7">
               <Link
                 href="#home"
+                onClick={handleScroll}
                 className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               >
                 <motion.li
@@ -33,6 +38,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="#about"
+                onClick={handleScroll}
                 className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               >
                 <motion.li
@@ -45,6 +51,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="#project"
+                onClick={handleScroll}
                 className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               >
                 <motion.li
@@ -57,6 +64,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="#contact"
+                onClick={handleScroll}
                 className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               >
                 <motion.li
