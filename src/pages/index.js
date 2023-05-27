@@ -1,10 +1,13 @@
 import Navbar from "@/components/Navbar";
-import Rightside from "@/components/Rightside";
+import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import LeftSide from "@/components/LeftSide";
 import About from "@/components/About";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Muhammad Fahad</title>
         <meta name="viewpoint" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="../../public/assets/images/logo.jpg" />
+        <link rel="icon" href="/assets/images/logo.png" />
       </Head>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
         <Navbar />
@@ -25,9 +28,12 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh] mx-auto p-4">
+          <div className="h-[88vh] w-full mx-auto p-4">
             <Banner />
             <About />
+            <Projects />
+            <Contact />
+            <Footer />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -35,7 +41,7 @@ export default function Home() {
             transition={{ delay: 1 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
-            <Rightside />
+            <RightSide />
           </motion.div>
         </div>
       </main>

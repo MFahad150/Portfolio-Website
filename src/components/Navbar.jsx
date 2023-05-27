@@ -13,7 +13,9 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <a href="">
+              <Image className="w-14" src={logo} alt="logo" />
+            </a>
           </motion.div>
           <div className="hidden mdl:inline-flex items-center gap-7">
             <ul className="flex text-[15px] gap-7">
@@ -66,7 +68,7 @@ const Navbar = () => {
                 </motion.li>
               </Link>
             </ul>
-            <a href="../../public/assets/Fahad_resume.pdf" target="_blank">
+            <a href="/assets/Fahad_resume.pdf" target="_blank">
               <motion.button
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
