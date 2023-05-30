@@ -37,7 +37,7 @@ const Banner = () => {
         <span className="text-textGreen">Cloud Computing</span>. I have
         experience with containerization and orchestration tools like{" "}
         <span className="text-textGreen">Docker</span> and
-        <span className="text-textGreen">Kubernetes</span>..{" "}
+        <span className="text-textGreen">Kubernetes</span>.{" "}
         <a href="#about">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
