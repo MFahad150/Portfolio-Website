@@ -2,7 +2,7 @@ import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin, SlSocialFacebook, SiIndeed } from "react-icons/sl";
 import { SiMedium } from "react-icons/si";
 
-const Rightside = () => {
+const RightSide = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <div className="flex flex-col gap-4">
@@ -31,4 +31,4 @@ const Rightside = () => {
     </div>
   );
 };
-export default Rightside;
+export default RightSide;
