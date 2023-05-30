@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
-import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import LeftSide from "@/components/LeftSide";
+import RightSide from "../components/RightSide";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Blog from "@/components/Blog";
