@@ -8,9 +8,9 @@ const Contact = () => {
       <SectionTitle title="Contact" titleNo="03" />
       <h2 className="font-titleFont text-3xl font-semicold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
-      Although I’m currently looking for any new opportunities. Feel free to reach out to me for any inquiries, collaborations, or simply to say hello. I'm always excited to connect with like-minded individuals and explore new opportunities.
+      Although Im currently looking for any new opportunities. Feel free to reach out to me for any inquiries, collaborations, or simply to say hello. Im always excited to connect with like-minded individuals and explore new opportunities.
       </p>
-      <p className="max-w-[600px] text-center text-textDark">you can connect with me on professional networking platform <span className="text-textGreen">LinkedIn</span>. Feel free to send me a connection request and let's stay in touch</p>
+      <p className="max-w-[600px] text-center text-textDark">you can connect with me on professional networking platform <span className="text-textGreen">LinkedIn</span>. Feel free to send me a connection request and lets stay in touch</p>
     <a href="mailto:mfahad1667@gmail.com" target="_blank">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300 ">Contact Me</button>
     </a>

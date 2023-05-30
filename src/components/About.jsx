@@ -13,10 +13,24 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          I have a strong interest in DevOps and has developed skills in various DevOps tools including <span className="text-textGreen">Git</span>, <span className="text-textGreen">GitHub</span>, <span className="text-textGreen">Docker</span>, <span className="text-textGreen">Kubernetes</span>, <span className="text-textGreen">Jenkins</span> and <span className="text-textGreen">AWS</span>. I'm eager to continue building this skills and actively seeking opportunities to gain hands-on experience in the field.
+            I have a strong interest in DevOps and has developed skills in
+            various DevOps tools including{" "}
+            <span className="text-textGreen">Git</span>,{" "}
+            <span className="text-textGreen">GitHub</span>,{" "}
+            <span className="text-textGreen">Docker</span>,{" "}
+            <span className="text-textGreen">Kubernetes</span>,{" "}
+            <span className="text-textGreen">Jenkins</span> and{" "}
+            <span className="text-textGreen">AWS</span>. Im eager to continue
+            building this skills and actively seeking opportunities to gain
+            hands-on experience in the field.
           </p>
           <p>
-          Recently Completed <span className="text-textGreen">Google IT Support Professional Certificate</span> — IT support program that covers troubleshooting, customer service, networking, operating systems, system administration, and security.
+            Recently Completed{" "}
+            <span className="text-textGreen">
+              Google IT Support Professional Certificate
+            </span>{" "}
+            — IT support program that covers troubleshooting, customer service,
+            networking, operating systems, system administration, and security.
           </p>
           <p>
             I am constantly seeking personal growth and staying updated with the

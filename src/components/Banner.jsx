@@ -30,7 +30,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        I'm in 3rd year currently pursuing my bachelor's in{" "}
+        Im in 3rd year currently pursuing my bachelor in{" "}
         <span className="text-textGreen"> Computer Science</span>. Throughout my
         career, I have dedicated myself to honing my skills and expanding my
         knowledge in <span className="text-textGreen">DevOps </span>and{" "}
