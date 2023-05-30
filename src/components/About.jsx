@@ -13,22 +13,17 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            cum reiciendis quos atque, assumenda doloremque vel tempore odit
-            aliquam laborum accusamus consectetur dolorem maxime sapiente magni
-            dolores repellendus, a error.
+          I have a strong interest in DevOps and has developed skills in various DevOps tools including <span className="text-textGreen">Git</span>, <span className="text-textGreen">GitHub</span>, <span className="text-textGreen">Docker</span>, <span className="text-textGreen">Kubernetes</span>, <span className="text-textGreen">Jenkins</span> and <span className="text-textGreen">AWS</span>. I'm eager to continue building this skills and actively seeking opportunities to gain hands-on experience in the field.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            cum reiciendis quos atque, assumenda doloremque vel tempore odit
-            aliquam laborum accusamus consectetur dolorem maxime sapiente magni
-            dolores repellendus, a error.
+          Recently Completed <span className="text-textGreen">Google IT Support Professional Certificate</span> — IT support program that covers troubleshooting, customer service, networking, operating systems, system administration, and security.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            cum reiciendis quos atque, assumenda doloremque vel tempore odit
-            aliquam laborum accusamus consectetur dolorem maxime sapiente magni
-            dolores repellendus, a error.
+            I am constantly seeking personal growth and staying updated with the
+            latest trends and advancements in my field. I believe in the power
+            of lifelong learning and regularly engage in workshops, courses, and
+            industry events to expand my skill set and stay at the forefront of
+            innovation.
           </p>
           <p>Here are few technologies I have been working with,</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">

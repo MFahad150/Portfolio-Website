@@ -30,11 +30,15 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-        similique, sapiente vero delectus tenetur blanditiis nulla corrupti
-        deleniti minus sed sunt quae? Magnam veniam commodi sunt? Minima vero
-        nemo obcaecati.{" "}
-        <a href="" target="_blank">
+        I'm in 3rd year currently pursuing my bachelor's in{" "}
+        <span className="text-textGreen"> Computer Science</span>. Throughout my
+        career, I have dedicated myself to honing my skills and expanding my
+        knowledge in <span className="text-textGreen">DevOps </span>and{" "}
+        <span className="text-textGreen">Cloud Computing</span>. I have
+        experience with containerization and orchestration tools like{" "}
+        <span className="text-textGreen">Docker</span> and
+        <span className="text-textGreen">Kubernetes</span>..{" "}
+        <a href="#about">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
             <span
@@ -44,14 +48,16 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <motion.button
-       initial={{ y: 10, opacity: 0 }}
-       animate={{ y: 0, opacity: 1 }}
-       transition={{ duration: 0.5, delay: 0.9 }}
-       className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-      >
-Check out my Projects
-      </motion.button>
+      <a href="https://github.com/MFahad150" target="_blank">
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my Projects
+        </motion.button>
+      </a>
     </section>
   );
 };
