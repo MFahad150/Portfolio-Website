@@ -3,7 +3,6 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import LeftSide from "@/components/LeftSide";
-import RightSide from "../components/RightSide";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Blog from "@/components/Blog";
@@ -43,7 +42,7 @@ export default function Home() {
             transition={{ delay: 1 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
-            <RightSide />
+            {/* RightSide */}
           </motion.div>
         </div>
       </main>
