@@ -20,11 +20,10 @@ yarn dev
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Features
-
-**Portfolio Showcase:** Explore a comprehensive collection of my notable projects and achievements.
-**About Me:** Learn more about my skills, qualifications, and areas of expertise.
-**Contact Me:** Get in touch with me for inquiries, collaborations, or general discussions.
-**Responsive Design:** The website is fully responsive and optimized for various devices and screen sizes.
+- **Portfolio Showcase:** Explore a comprehensive collection of my notable projects and achievements.
+- **About Me:** Learn more about my skills, qualifications, and areas of expertise.
+- **Contact Me:** Get in touch with me for inquiries, collaborations, or general discussions.
+- **Responsive Design:** The website is fully responsive and optimized for various devices and screen sizes.
 
 ## Contributing
 
