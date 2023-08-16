@@ -5,7 +5,7 @@ const Contact = () => {
       id="contact"
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center"
     >
-      <SectionTitle title="Contact" titleNo="03" />
+      <SectionTitle title="Contact" titleNo="04" />
       <h2 className="font-titleFont text-3xl font-semicold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
       Although Im currently looking for any new opportunities. Feel free to reach out to me for any inquiries, collaborations, or simply to say hello. Im always excited to connect with like-minded individuals and explore new opportunities.
