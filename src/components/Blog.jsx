@@ -19,16 +19,16 @@ const Blog = () => {
           link="https://medium.com/@mfahad1667/ssh-connection-between-two-docker-container-7c9dced1aa43"
         />
         <BlogCard
-          title="Object-Oriented Programming in TypeScript"
-          des="Object-Oriented Programming is a pragramming paradigm or style of programming that is centered on objects rather than functions."
-          listItem={["OOP", "TypeScript", "Concepts"]}
-          link="https://medium.com/@mfahad1667/navigating-the-world-of-object-oriented-programming-in-typescript-b7b2d18fc96a"
+          title="Static Code Analysis (SonarQube)"
+          des="A debugging method that inspects source code, is performed in a non-runtime environment, means it examines the code without executing the program."
+          listItem={["Code Analysis", "Testing"]}
+          link="https://medium.com/@mfahad1667/static-code-analysis-f6d455bb4fab"
         />
         <BlogCard
-          title="Infrastructure as Code (IaC)"
-          des="Infrastructure as Code is the practice of describing infrastructure in executable textual format. "
-          listItem={["Server", "YAML", "JSON"]}
-          link="https://www.linkedin.com/posts/muhammad-fahad-b9a985220_management-kubernetes-software-activity-7059489352900317184-fouv?utm_source=share&utm_medium=member_desktop"
+          title="Containerizing NextJS Website"
+          des="The process of Dockerizing a Next.js website, enabling easy deployment. Follow 4 steps to containerized NextJS Website."
+          listItem={["NextJS", "Dockerfile", "Image"]}
+          link="https://medium.com/@mfahad1667/containerizing-nextjs-website-dc5ad44abd68"
         />
         {showMore && (
           <>
@@ -36,6 +36,30 @@ const Blog = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.1 }}
+            >
+              <BlogCard
+                title="Infrastructure as Code (IaC)"
+                des="Infrastructure as Code is the practice of describing infrastructure in executable textual format. "
+                listItem={["Server", "YAML", "JSON"]}
+                link="https://www.linkedin.com/posts/mfahad710_management-kubernetes-software-activity-7059489352900317184-Fc9v?utm_source=share&utm_medium=member_desktop"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+            >
+              <BlogCard
+                title="Object-Oriented Programming in TypeScript"
+                des="Object-Oriented Programming is a pragramming paradigm or style of programming that is centered on objects rather than functions."
+                listItem={["OOP", "TypeScript", "Concepts"]}
+                link="https://medium.com/@mfahad1667/navigating-the-world-of-object-oriented-programming-in-typescript-b7b2d18fc96a"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
             >
               <BlogCard
                 title="Brief History of DevOps"
@@ -47,19 +71,19 @@ const Blog = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
+              transition={{ delay: 0.4 }}
             >
               <BlogCard
                 title="Test-Driven Development (TDD)"
                 des="Test-Driven Development (TDD) is a methodology in software development that focuses on creating unit test cases before developing the actual code. "
                 listItem={["Clean Code", "Test Cases"]}
-                link="https://www.linkedin.com/posts/muhammad-fahad-b9a985220_devops-testdrivendevelopment-quality-activity-7062776737159426049-j32H?utm_source=share&utm_medium=member_desktop"
+                link="https://www.linkedin.com/posts/mfahad710_devops-testdrivendevelopment-quality-activity-7062776737159426049-efN_?utm_source=share&utm_medium=member_desktop"
               />
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.5 }}
             >
               <BlogCard
                 title="Social Coding"
